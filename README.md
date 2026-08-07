@@ -94,7 +94,6 @@ El esquema electrónico general del proyecto se encuentra representado en Proteu
 
 Diagrama general
 
-![DIAGRAMA EN PROTEUS](/home/tronyx/PITBULL-V2.0.0/imagenes/'diagrama general soccer.png')
 ![DIAGRAMA EN PROTEUS](imagenes/diagrama_general_soccer.png)
 
 El esquema muestra la conexión general de los componentes electrónicos utilizados en el SoccerBot.
