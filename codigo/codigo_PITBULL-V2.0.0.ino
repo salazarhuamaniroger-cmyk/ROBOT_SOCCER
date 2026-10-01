@@ -13,7 +13,7 @@ const int PWMA_PIN = 14;
 const int AIN1_PIN = 18;
 const int AIN2_PIN = 21; // Motor A (Asumiremos que es el Izquierdo)
 
-const int PWMB_PIN = 35;
+const int PWMB_PIN = 7;// modificado del 35 al 7 porque 35 se quemo
 const int BIN1_PIN = 16;
 const int BIN2_PIN = 17; // Motor B (Asumiremos que es el Derecho)
 
@@ -402,8 +402,8 @@ void setup() {
             }
 
             // Algoritmo Arcade Drive (Cinemática de Tracción Diferencial)
-            int velIzq = y + x;
-            int velDer = y - x;
+            int velIzq = y - x;// de modifico antes y + x
+            int velDer = y + x; // antes y-x
 
             velIzq = constrain(velIzq, -255, 255);
             velDer = constrain(velDer, -255, 255);
